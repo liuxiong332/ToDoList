@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ToDoList</string>
+    <string name="action_settings">Settings</string>
+    <string name="add_content_hint">增加一些内容</string>
+    <string name="add_content_description">Add Content</string>
+</resources>
