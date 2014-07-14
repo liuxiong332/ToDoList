@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="notepad_papers">#EEFBEEA0</color>
+    <color name="notepad_lines">#FFDD00FF</color>
+    <color name="notepad_margin">#90FF0000</color>
+    <color name="notepad_text">#AA0000FF</color>
+
+    <color name="text_color">#A000</color>
+    <color name="marker_color">#AFFF</color>
+    <color name="compass_background_color">#F555</color>
+</resources>

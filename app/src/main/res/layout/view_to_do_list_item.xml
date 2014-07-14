@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:scrollbars="vertical"
+    android:textColor="@color/notepad_text"
+    android:fadingEdge="vertical"
+    >
+    <TextView
+        android:id="@+id/list_view_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        />
+    <com.example.liuxi_000.todolist.ToDoListItemView
+        android:id="@+id/list_view_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        />
+
+</merge>

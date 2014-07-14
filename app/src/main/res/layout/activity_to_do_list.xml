@@ -9,27 +9,15 @@
     android:orientation="vertical"
     tools:context=".ToDoListActivity">
 
-    <LinearLayout
+    <fragment
+        android:id="@+id/new_content_fragment"
+        android:name="com.example.liuxi_000.todolist.NewContentFragment"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-        <EditText
-            android:id="@+id/add_content_edit"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="@string/add_content_hint"
-            android:contentDescription="@string/add_content_description"
-            android:layout_weight="1"/>
-        <Button
-            android:id="@+id/add_content_button"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="2"/>
-    </LinearLayout>
-
-    <ListView
-        android:id="@+id/to_do_list"
+    </fragment>
+    <fragment
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-    </ListView>
-
+        android:layout_height="wrap_content"
+        android:id="@+id/list_view"
+        android:name="com.example.liuxi_000.todolist.ToDoListFragment"/>
 </LinearLayout>
